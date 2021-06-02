@@ -1,5 +1,5 @@
 [info]
-title=Code-Tree keeper
+title=Code-Tree Keeper
 desc=Remember 'Code tree' fold-state
 type=cudatext-plugin
 subdir=cuda_codetree_keeper
@@ -7,4 +7,10 @@ homepage=https://github.com/halfbrained/cuda_codetree_keeper
 
 [item1]
 section=events
-events=on_state
+events=on_state,on_exit
+
+[item10]
+section=commands
+caption=Code-Tree Keeper\Config
+method=config
+menu=o
